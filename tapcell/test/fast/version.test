@@ -1,0 +1,8 @@
+NAME=tcl_version_test
+DFESCRIPTION="If tapcell can print version, it means Tcl libraries are loaded ok"
+PLATFORM=all
+COMMAND="tapcell -version"
+#GOLDEN=1
+EXIT_CODE=0
+#EXPECT_STRING=test
+CLEAN=

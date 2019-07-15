@@ -1,0 +1,8 @@
+NAME=tapcell_crash_test
+DFESCRIPTION="Quick test to verify C++ bridge is functional"
+PLATFORM=all
+COMMAND="tapcell test/fast/crash.tcl"
+GOLDEN=1
+EXIT_CODE=0
+#EXPECT_STRING=test
+CLEAN=
