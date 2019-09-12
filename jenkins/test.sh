@@ -1,0 +1,1 @@
+docker run -v $(pwd):/tapcell tapcell bash -c "cd /tapcell && make test"
